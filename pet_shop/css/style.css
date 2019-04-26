@@ -1,0 +1,76 @@
+/* This is where we will be writing all of your styles */
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700,900,900i|Raleway:400,700,900,900i|Roboto+Slab:400,700');
+
+body {
+  background-color: #005073;
+  color: white;
+  font-family: "Merriweather", san-serif;
+}
+
+h1 {
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 48px;
+  font-family: "Raleway", serif;
+  background-color: pink;
+  border: 5px solid black;
+  padding: 30px;
+  margin-bottom: 60px;
+}
+
+h1:hover {
+  background-color: cyan;
+}
+
+h2 {
+  color: yellow;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+
+}
+
+li {
+  display: inline-block;
+}
+
+ul {
+  text-align: center;
+  font-weight: normal;
+  font-style: normal;
+}
+
+li {font-weight: normal;
+font-style: normal;
+text-align: center;
+
+
+}
+
+img {
+   display: block;
+   margin: 40px auto;
+    width: 400px;
+}
+
+
+.mammals {
+  color: red;
+  font-weight: bold;
+}
+
+.birds {
+  color: blue;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.fish {
+  color: orange;
+  text-decoration: underline;
+}
+
+#firstList {
+  background-color: lime;
+}
